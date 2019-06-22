@@ -2,11 +2,13 @@
   "name": "eslint-config-ecommerce",
   "version": "1.0.0",
   "description": "",
-  "private": true,
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint .",
+    "lint": "eslint . --config=index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "eslint": "./node_modules/.bin/eslint"
   },
   "author": "",
   "license": "ISC",

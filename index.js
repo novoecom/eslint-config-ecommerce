@@ -24,4 +24,4 @@ module.exports = {
     'brace-style': ['error', 'stroustrup'],
     'prefer-template': ['error']
   }
-};
+}
