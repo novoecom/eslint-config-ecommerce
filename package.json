@@ -7,9 +7,6 @@
     "lint": "eslint . --config=index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": {
-    "eslint": "./node_modules/.bin/eslint"
-  },
   "author": "",
   "license": "ISC",
   "dependencies": {
