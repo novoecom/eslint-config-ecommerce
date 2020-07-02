@@ -3,6 +3,13 @@
   "version": "1.0.2",
   "description": "",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@novoecom"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/novoecom/eslint-config-ecommerce.git"
+  },
   "scripts": {
     "lint": "eslint . --config=index.js",
     "test": "eslint . --config=index.js"
